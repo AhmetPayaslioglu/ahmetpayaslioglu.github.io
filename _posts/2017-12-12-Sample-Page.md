@@ -4,7 +4,7 @@ published: true
 ---
 
 <p>Bu yazımda PE Dosya formatı üzeriden nasıl malware analizi yapabileceğimizi anlattım. Kali Linux üzerinden trojen oluşturduktan sonra, oluşturduğumuz bu trojeni farklı ortamlarda analiz edeceğiz. PE dosyaları üzerinden , bu yazılımın zararlı olup olmadığına dair ipuçları elde edeceğiz.</p>
-<p>Portable Executable (kısaca PE), Windows’ un çalıştırılabilir dosya formatıdır. Dosya formatları , programların fonksiyonlarla alakalı bir takım bilgileri analiz yapan kişiye sunabilmektedir. PE dosya formatı Windows executable ve DLL dosyaları tarafından kullanılabilmektedir. PE dosyaları başlık bilgileri ile başlar ve bu başlık bilgileri program için gereken kütüphane fonksiyonlarını uygulama tipleri gibi bilgileri içermektedir.</p>
+<p><a style="color:red;">Portable Executable</a> (kısaca PE), Windows’ un çalıştırılabilir dosya formatıdır. Dosya formatları , programların fonksiyonlarla alakalı bir takım bilgileri analiz yapan kişiye sunabilmektedir. PE dosya formatı Windows executable ve DLL dosyaları tarafından kullanılabilmektedir. PE dosyaları başlık bilgileri ile başlar ve bu başlık bilgileri program için gereken kütüphane fonksiyonlarını uygulama tipleri gibi bilgileri içermektedir.</p>
 <p>Bağlı kütüphaneler ve fonksiyonlardan yararlanılarak analiz için bilgiler edilebilir. PE dosya başlığı program tarafından yüklenen kütüphane ve fonksiyonlar ile alakalı bilgileri tutar.</p>
 
 # [](#header-1)DLL Dosyaları Ne İşe Yarıyor?
@@ -12,7 +12,7 @@ published: true
 <p>Windows işletim sisteminde programların sorunsuz bir şekilde çalışabilmek için ihtiyaç duyduğu öncelikli dosyalar, “yürütülür dosya” veya “program dosyası” denilen dosyalardır. Yürütülür dosyalar, “.exe” uzantılı dosyalardır.</p>
 <p>Örneğin; iexplore.exe dosyası, Internet Explorer tarayıcısını başlatmanızı sağlayan yürütülebilir dosyadır.</p>
 <p>Dll dosyaları ise Windows işletim sistemine ait programlar için birer fonksiyon kütüphanesidir. Programlar bu kütüphaneleri gerektiğinde kullanarak programlandıkları işleri yerine getirirler. Eğer kullandığınız programların ihtiyaç duyduğu dll dosyaları (dinamik bağlantı kütüphaneleri) eksikse ya da hasarlıysa “Dll dosyası bulunamadı“, “Dll dosyası hasarlı ya da eksik” gibi hatalar ile karşılaşırsınız.</p>
-<p>Şimdi Kali Linux üzeriden msfvenom aracı ile trojen oluşturalım.</p>
+<p>Şimdi <a style="color:red;">Kali Linux</a> üzeriden <a style="color:red;">msfvenom</a> aracı ile trojen oluşturalım.</p>
 <img src="https://miro.medium.com/max/2400/0*34MCZaWez0iDw69A.png" alt="">
 <p>Oluşturduğumuz bu trojeni Dependency Walker programı ile analiz edeceğim.</p>
 
@@ -21,17 +21,17 @@ published: true
 
 ## [](#header-2)Dependency Walker
 
-<p>Oluşturduğum trojeni Dependency Walker programı ile açıyorum.</p>
-<p>Karşıma bir takım DLL dosyaları geldi. DLL dosyalarını incelediğimizde ağ bağlantısı için WS2_32.DLL yi kullandığını gördüm.</p>
+<p>Oluşturduğum trojeni <a style="color:red;">Dependency Walker</a> programı ile açıyorum.</p>
+<p>Karşıma bir takım DLL dosyaları geldi. DLL dosyalarını incelediğimizde ağ bağlantısı için <a style="color:red;">WS2_32.DLL</a> yi kullandığını gördüm.</p>
 <img src="https://miro.medium.com/max/2400/0*uZJtWVCjr0A4hxEH.png" alt="">
-<p>Sonrasında DLL’leri biraz daha inceledikten sonra , şifreli bağlantı için CRYPT32.DLL kullandığını farkediyorum.</p>
+<p>Sonrasında DLL’leri biraz daha inceledikten sonra , şifreli bağlantı için <a style="color:red;">CRYPT32.DLL</a> kullandığını farkediyorum.</p>
 <img src="https://miro.medium.com/max/2400/0*wXv5wPeEmUDMgWYg.png" alt="">
-<p>Biraz daha aşağılara indiğimizde, komut çalıştırmak için SHELL32.DLL ‘yi kullandığını gözlemliyorum.</p>
+<p>Biraz daha aşağılara indiğimizde, komut çalıştırmak için <a style="color:red;">SHELL32.DLL</a> ‘yi kullandığını gözlemliyorum.</p>
 <img src="https://miro.medium.com/max/2400/0*cBQHHocTxp4TjvpL.png" alt="">
 
 ### [](#header-3)Remnux
 
-<p>Sonrasında trojeni farkı bir ortamda incelemek için Remnux üzerinden analiz yapmaya devam ediyorum.</p>
+<p>Sonrasında trojeni farkı bir ortamda incelemek için <a style="color:red;">Remnux</a> üzerinden analiz yapmaya devam ediyorum.</p>
 <p>Zararlı kod Remnux tarafından pescanner aracı ile incelediğimde aşağıdaki gibi bir çıktı elde ediyoruz.</p>
 <img src="https://miro.medium.com/max/2400/0*Ed8GkQLCJkWMEPjD.png" alt="">
 <img src="https://miro.medium.com/max/2400/0*8IygsshMms_QXt9X.png" alt="">
