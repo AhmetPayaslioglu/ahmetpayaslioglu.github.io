@@ -11,25 +11,25 @@ Bu yazımda Steganography yöntemiyle “Ses Dosyası’nın İçerisine Yazı G
 
 # [](#header-1)Ses Dosyasının İçerisine Yazıyı Gizleme
 
-Bu işlemi yapmak için Coagula programını kullanacağız. Programı açtıktan sonra , öncelikle <strong>File</strong> > <strong>New Image</strong>‘yi seçtikten sonra yükseklik ve genişlik ayarlarından ekranı büyütüyoruz.
+Bu işlemi yapmak için Coagula programını kullanacağız. Programı açtıktan sonra , öncelikle <a style="color:red;">File>New</a>‘yi seçtikten sonra yükseklik ve genişlik ayarlarından ekranı büyütüyoruz.
 <img src="https://miro.medium.com/max/2400/0*po07Ifv6vKpLAnOp.png" alt="">
 <p>Sonrasında siyah ekrana mouse yardımıyla istediğiniz yazıyı yazabilirsiniz.</p>
 <img src="https://miro.medium.com/max/2400/0*iSRuOj_Mru6Vet1P.png" alt="">
 <p>Ok işareti ile gösterdiğim kutucuğa tıkladığımızda , yazının sese dönüştüğünü duyabilirsiniz.</p>
 <img src="https://miro.medium.com/max/2400/0*V8vKVurWItW06C5y.png" alt="">
-<p>Yazıyı başarıyla ses dosyasının içerisine gömdük. Kaydetmek için File > Save Sound As seçeneğine tıklayalım. Dosyayı .wav uzantılı kaydettiğini görebilirsiniz. Bildiğiniz üzere .wav uzasıntısı ses dosyasını temsil ediyor. Şimdi bu dosyayı nasıl analiz edebiliriz buna bakalım.</p>
+<p>Yazıyı başarıyla ses dosyasının içerisine gömdük. Kaydetmek için <a style="color:red;">File > Save Sound As</a>  seçeneğine tıklayalım. Dosyayı  <a style="color:red;">.wav</a> uzantılı kaydettiğini görebilirsiniz. Bildiğiniz üzere .wav uzasıntısı ses dosyasını temsil ediyor. Şimdi bu dosyayı nasıl analiz edebiliriz buna bakalım.</p>
 
 
 ## [](#header-2)Ses Dosyasın İçerisine Gizlenmiş Yazıyı Analiz Etme
 
 <p>Bunun için Sonic Visualiser programını kullanacağız. Kendi işletim sisteminize uygun olanı indirdikten sonra , uygulamayı açalım.</p>
-<p>Uygulamayı açtıktan sonra , kaydettiğimiz ses dosyasını File>Open seçeneğinden seçelim.</p>
+<p>Uygulamayı açtıktan sonra , kaydettiğimiz ses dosyasını  <a style="color:red;">File>Open</a> seçeneğinden seçelim.</p>
 <img src="https://miro.medium.com/max/2400/0*6FU7l01Q83RmC5nU.png" alt="">
 <p>Seçtiğimiz dosya karşımıza bu şekilde gelecektir.</p>
 <img src="https://miro.medium.com/max/2400/0*ROneDsmo98BatPlF.png" alt="">
 <p>Frekanslar sıkışık olduğundan dolayı mouse’un scroll’unu yukarıya doğru döndermeliyiz. Bu sayede frekanslar genişleyecektir.</p>
 <img src="https://miro.medium.com/max/2400/0*RXczXQjQzbSswFQD.png" alt="">
-<p>Sonrasında gizlenmiş yazıyı analiz etmek için Sağ tık > Layer > Add Spectogram seçeneğine basıyoruz.</p>
+<p>Sonrasında gizlenmiş yazıyı analiz etmek için <a style="color:red;">Sağ tık > Layer > Add Spectogram</a> seçeneğine basıyoruz.</p>
 <img src="https://miro.medium.com/max/2400/0*ApiTvmfeZ1cISreW.png" alt="">
 <p>Sonrasında karşımıza gizlediğimiz yazı geliyor :) </p>
 <img src="https://miro.medium.com/max/2400/0*IDXGvHZP7b8jImVk.png" alt="">
