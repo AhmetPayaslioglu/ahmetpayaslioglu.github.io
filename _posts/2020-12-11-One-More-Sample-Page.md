@@ -35,7 +35,7 @@ published: true
 <p>Diskimizin isminide öğrendiğimize göre artık veri kazıma işlemine başlayabiliriz.</p>
 <p>foremost -v -q -t jpeg,pdf -o ahmetpayas /dev/sdb komutunu yazarak veri kurtarma işlemini başlatıyorum. Bu işlem geri getirmek istediğiniz verilerin boyutuna göre zaman değişkenliği gösterebilir.</p>
 <img src="https://miro.medium.com/max/700/1*mC19pLQfgCy-ExpkpJYSwg.jpeg" alt="">
-<p>şlem bittikten sonra 1 adet pdf dosyası ve 1 adet jpg dosyasını geri getirdiğini söyledi. Yazının başında zaten bu verileri geri getirmek istediğimi ve bunları bilerek sildiğimi belirtmiştim. Yani amacımıza ulaştık.</p>
+<p>İşlem bittikten sonra 1 adet pdf dosyası ve 1 adet jpg dosyasını geri getirdiğini söyledi. Yazının başında zaten bu verileri geri getirmek istediğimi ve bunları bilerek sildiğimi belirtmiştim. Yani amacımıza ulaştık.</p>
 <img src="https://miro.medium.com/max/2400/1*KluWxWvkS0oMI7_Ei7_8fQ.png" alt="">
 <p>Şimdi verilerimizi kontrol edelim bir problem veya eksiklik var mı diye.
 ahmetpayas dizinine gidiyorum. 3 tane dosya ile karşılaşıyorum.
@@ -45,20 +45,15 @@ ahmetpayas dizinine gidiyorum. 3 tane dosya ile karşılaşıyorum.
 Öncelikle jpg dosyamı kontrol ediyorum. display (dosya adı) komutuyla resmimi açıyorum. Aşağıdaki fotoğrafta gördüğünüz gibi problemsiz bir şekilde veriyi geri getirdik.
 </p>
 <img src="https://miro.medium.com/max/2400/1*PVTqtxVoy0p4rSd4GchhCw.png" alt="">
+<p>Sonrasında pdf klasörümüze bir göz atalım . Pdf dosyamı açmak için xdg-open (dosya adı) komutunu kullanıyorum. Aşağıdaki resimde gördüğünüz gibi pdf dosyamda sorunsuz bir şekilde geri getirildi.</p>
+<img src="https://miro.medium.com/max/2400/1*mJwiucuw8kO_1CvCAwIYWg.png" alt="">
 
-##### [](#header-5)Header 4
 
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
+##### [](#header-5)Verileri Kalıcı Olarak Silme İşlemi
 
-###### [](#header-6)Header 6
+<p>Gördüğünüz gibi istediğim verileri geri getirmiş oldum. Şimdi bu verileri ne yapsaydık geri getiremezdik ondan bahsetmek istiyorum . Silinen verileri nasıl geri kurtarma işlemi yapamayız biraz da onlara değineceğim . Yazının başında biraz bahsetmiştim . Wipe işlemi yapılan disklerdeki verileri geri kurtaramayız. Wipe dediğimiz kavram verinin üzerinde binlerce yeni veri ekleyerek eski verileriniz tamamen yokolmasına yol açar. Peki nasıl wipe yaparız diyorsanız , wipe işlemi için bazı araçlar var fakat en basitinden windows -> biçimlendir yaparak wipe edebilirsiniz. Dikkat edin genelde hızlı biçimlendirme kutucuğu dolu olarak gelir. O kutucuktaki tik işaretini kaldırmanız gerekiyor. Sonrasında biçimlendirme işlemini başlatabilirsiniz. Bu işlem uzun sürecektir çünkü diskinizin üzerine binlerce veri yazılıp silinecektir. Aşağıdaki resimde gördüğünüz işlemi yaparsanız verileriniz bir daha geri getirilmemek üzere yok olur . Antiforensic işlemi diyebiliriz. Delilleri böylece yokedebilirsiniz.</p>
+<img src="https://miro.medium.com/max/239/1*EPyJUczhSoVNCBJBCTrvOg.png" alt="">
+<p>Bir yazımın daha sonuna geldik . Yukarıda belirttiğim işlemleri silinen verilerinizi geri getirmek için faydalı olarak kullanabilirsiniz. Verilerinizi tamamen nasıl ortadan kaldırabileceğinize de değindim .Bir sonraki yazımda görüşmek üzere 🙂</p>
 
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
 
-```
+
