@@ -3,7 +3,7 @@ title: Ses Dosyası’nın İçerisine Yazı Gizleme | Steganography
 published: true
 ---
 
-Değerli okuyucular Merhaba. Ben Ahmet Payaslıoğlu. Bu yazıda Steganography yöntemiyle “Ses Dosyası’nın İçerisine Yazı Gizleme konusuna değineceğim.Öncelikle Steganography’den bahsetmek istiyorum.Steganografi, eski Yunanca’da “gizlenmiş yazı” anlamına gelir ve bilgiyi gizleme (önemli: şifreleme değil) bilimine verilen addır. Steganografi’nin şifrelemeye göre en büyük avantajı bilgiyi gören bir kimsenin gördüğü şeyin içinde önemli bir bilgi olduğunu fark edemiyor olmasıdır, böylece içinde bir bilgi aramaz (oysaki bir şifreli mesaj, çözmesi zor olsa bile, gizemi dolayısıyla ilgi çeker).Steganography’nin bir çok çeşidi vardır. Bu yazıda ses dosyasının içerisine yazı gizlemeyi deneyeceğim. Sonrasında bu ses dosyasını analiz ederek , gizlenmiş yazıyı bulacağız.Tarihte steganografi, hem şifreleme öncesi dönemde hem de sonrasında (ilgi çekmeme avantajından dolayı) kullanılmıştır.
+Bu yazımda Steganography yöntemiyle “Ses Dosyası’nın İçerisine Yazı Gizleme konusuna değineceğim.Öncelikle <a style="color:red;">Steganography’den</a> bahsetmek istiyorum.Steganografi, eski Yunanca’da “gizlenmiş yazı” anlamına gelir ve bilgiyi gizleme (önemli: şifreleme değil) bilimine verilen addır. Steganografi’nin şifrelemeye göre en büyük avantajı bilgiyi gören bir kimsenin gördüğü şeyin içinde önemli bir bilgi olduğunu fark edemiyor olmasıdır, böylece içinde bir bilgi aramaz (oysaki bir şifreli mesaj, çözmesi zor olsa bile, gizemi dolayısıyla ilgi çeker).Steganography’nin bir çok çeşidi vardır. Bu yazıda ses dosyasının içerisine yazı gizlemeyi deneyeceğim. Sonrasında bu ses dosyasını analiz ederek , gizlenmiş yazıyı bulacağız.Tarihte steganografi, hem şifreleme öncesi dönemde hem de sonrasında (ilgi çekmeme avantajından dolayı) kullanılmıştır.
 *  Eski Yunanistan’da, insanlar mesajları tahtaya yazıp üzerini mumla kaplarlardı. Böylece cisim kullanılmamış bir tablete benzerdi öte yandan mumun eritilmesiyle birlikte içindeki gizli mesaj okunabilirdi.
 *  Herodot’un bir hikâyesine göre Pers saldırısının öncesinde saçları tıraşlanan bir kölenin kafasına yazılan uyarı mesajı, saçlarının uzaması sayesinde saklanmıştır. Bu sayede, mesaj dikkat çekmeden gerekli yere ulaşabilmiş, ulaştığında da kölenin saçları tekrar kesilerek uyarı okunabilmiştir.
 *  II. Dünya Savaşı sırasında, New York’taki, Japon millî ajanı (Velvalee Dickinson) oyuncak bebek pazarlamacısı kılığı altında saklanmaktaydı. Bu ajan, Amerikan ordusunun hareketlerini bebek siparişi içeren mektuplar içine saklayarak Güney Amerika’daki adreslere gönderiyordu.
@@ -11,7 +11,7 @@ Değerli okuyucular Merhaba. Ben Ahmet Payaslıoğlu. Bu yazıda Steganography y
 
 # [](#header-1)Ses Dosyasının İçerisine Yazıyı Gizleme
 
-Bu işlemi yapmak için Coagula programını kullanacağız. Programı açtıktan sonra , öncelikle File > New Image‘yi seçtikten sonra yükseklik ve genişlik ayarlarından ekranı büyütüyoruz.
+Bu işlemi yapmak için Coagula programını kullanacağız. Programı açtıktan sonra , öncelikle <strong>File</strong> > <strong>New Image</strong>‘yi seçtikten sonra yükseklik ve genişlik ayarlarından ekranı büyütüyoruz.
 <img src="https://miro.medium.com/max/2400/0*po07Ifv6vKpLAnOp.png" alt="">
 <p>Sonrasında siyah ekrana mouse yardımıyla istediğiniz yazıyı yazabilirsiniz.</p>
 <img src="https://miro.medium.com/max/2400/0*iSRuOj_Mru6Vet1P.png" alt="">
