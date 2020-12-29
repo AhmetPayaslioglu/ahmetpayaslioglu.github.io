@@ -15,10 +15,24 @@ img {
   margin-right: auto;
 }
 </style>
+
+<html lang="en">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
 <body>
 
-<p><img src="/saas.jpeg"  alt="Ahmet Payaslıoğlu" style="width:40%"></p>
+<div class="container">
+  <h2>Circle</h2>
+  <p>The .rounded-circle class shapes the image to a circle:</p>            
+  <img src="/saas.jpeg" class="rounded-circle" alt="Cinque Terre" width="304" height="236"> 
+</div>
 
 </body>
 </html>
