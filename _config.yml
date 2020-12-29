@@ -1,9 +1,9 @@
 title: AhmetPayaslioglu-Blog
-description: "This webpage is my blog"
+description: "Welcome to my blog"
 author:
   name: "AhmetPayaslioglu"
   email: "someone@somewebsite.somedomain"
-  url: "https://ashishchaudhary.in/hacker-blog"
+  url: "https://ahmetpayaslioglu.github.io/"
 
 baseurl: /
 
