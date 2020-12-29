@@ -29,5 +29,5 @@ published: true
 # [](#header-5)Dark Webe Girmek Suçmu?
 <p>Türkiye Cumhuriyeti Yasalarında bununla alakalı bir konu yer almıyor. Yani size direk olarak DarkWebe girmek suç diye bir şey söyleyemeyiz. Fakat DarkWeb’in içeriklerine baktığımızda , neredeyse içeriklerin çoğunluğu suç teşkil ettiği için , başınız ağrıyabilir. Unutmayın ne kadar anonim olursanız olun , TOR ağının bir sahibi var.</p>
 
-# [](#header-6)Dark Webe Girmek Suçmu?
+# [](#header-6)Bir Sitenin DarkWeb’te olduğunu nasıl anlarım ?
 <p>Eğer link uzantısının sonu .onion ile bitiyorsa , bu link Darkwebte yer alıyor diyebiliriz. Aslında günümüz internetinde sizler nasıl (.com / .org / .tr) gibi uzantılar satın alıyorsanız, Dark Webte’de bu şekilde .onion uzantılı bir domain satın alabilirsiniz. .oniondan önce gelen URL kısmı ne kadar kısaysa domain fiyatları o kadar artıyor. Buda ufak bir bilgi olsun.</p>
