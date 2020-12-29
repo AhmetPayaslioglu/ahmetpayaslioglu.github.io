@@ -7,6 +7,7 @@ title: About
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 <style>
   .fa {
   padding: 20px;
@@ -34,6 +35,5 @@ title: About
   background: #125688;
   color: white;
 }
- <p>Selam.Öncelikle bloğumu ziyaret ettiğin için teşekkür ederim .Ben Ahmet Payaslıoğlu .Adli Bilişim Mühendisliği öğrencisiyim. Kendimi gün geçtikçe Siber Güvenlik ve Adli Bilişim alanında geliştirmeye çalışıyorum. Türkçe Dokümanların çoğalması adına yaptığım çalışmaları bloğumda paylaşıyorum. </p>
-<img src="/saas.jpeg" alt="Ahmet Payaslıoğlu" style="width:40%">
+
 
