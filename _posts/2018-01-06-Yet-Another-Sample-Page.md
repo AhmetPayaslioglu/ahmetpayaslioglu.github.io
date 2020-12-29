@@ -1,5 +1,5 @@
 ---
-title: Yet Another Sample Page
+title: Ses Dosyası’nın İçerisine Yazı Gizleme | Steganography
 published: true
 ---
 
