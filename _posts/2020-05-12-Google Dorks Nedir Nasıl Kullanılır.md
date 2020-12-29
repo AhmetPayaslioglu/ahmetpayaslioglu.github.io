@@ -57,18 +57,18 @@ published: true
 <p>Bazı sorguları inceledik . Daha bir sürü sorgu olduğu için geriye kalan sorgulardan birazını aşağıda listelemek istiyorum.</p>
 
 # [](#header-2)Diğer Örnekler:
-* Url : İnternet’te bir kaynağa (belge veya resim gibi) rastgelen, standart bir formata uygun bir karakter dizgisidir.
-* allintext : Aradığımız tüm text dosyalarını bulacaktır.
-* link : Aradığımız link’e ait sayfaları bulacaktır
-* inanchor : Google aradığımız içerik bilgisi ile bağlantılı, içeriklere sahip bağlantılar ile aramamızı kısıtlayacaktır.
-* numrange : Google aradığımız numara veya numara aralıklarını bulacaktır.
-* daterange : Aradığımız tarih veya tarih aralıklarını bulacaktır.
-* author : Aradığımız yazara ait bilgileri bulacaktır.
-* groups : Google aradığımız bir topluluk ismini google groups da bulunan makaleler ve benzer isimdeki topluluk içerikleri ile sınırlandıracaktır.
-* insubject : Google, konuyla belirttiğimiz terimleri içeren içerikler(makale vb.) ile sınırlar.
-* msgid : (message id yani Türkçe adı ile mesaj kimliği) Her e-postanın bir kimliği(id) vardır.Google da bu kimlik ile arama yaptığımızda bu e-posta ile bağlantılı bilgiler ile aramamız sınırlanacaktır.
-* define : Aradığımız girdi ile ilgili bilgi bulacaktır.
-* maps : Aradığımız lokasyon ile ilgili bilgi bulacaktır.
-* book : Aradığımız kitap ile ilgili bilgi bulacaktır.
-* info : Google girdiğimiz url ile ilgili web sayfası hakkında bilgiler ile aramayı sınırlayacaktır.
+* <a style="color:red;">Url </a>: İnternet’te bir kaynağa (belge veya resim gibi) rastgelen, standart bir formata uygun bir karakter dizgisidir.
+* <a style="color:red;">allintext</a> : Aradığımız tüm text dosyalarını bulacaktır.
+* <a style="color:red;">link</a> : Aradığımız link’e ait sayfaları bulacaktır
+* <a style="color:red;">inanchor</a> : Google aradığımız içerik bilgisi ile bağlantılı, içeriklere sahip bağlantılar ile aramamızı kısıtlayacaktır.
+* <a style="color:red;">numrange</a> : Google aradığımız numara veya numara aralıklarını bulacaktır.
+* <a style="color:red;">daterange</a> : Aradığımız tarih veya tarih aralıklarını bulacaktır.
+* <a style="color:red;">author</a> : Aradığımız yazara ait bilgileri bulacaktır.
+* <a style="color:red;">groups</a> : Google aradığımız bir topluluk ismini google groups da bulunan makaleler ve benzer isimdeki topluluk içerikleri ile sınırlandıracaktır.
+* <a style="color:red;">insubject</a> : Google, konuyla belirttiğimiz terimleri içeren içerikler(makale vb.) ile sınırlar.
+* <a style="color:red;">msgid</a> : (message id yani Türkçe adı ile mesaj kimliği) Her e-postanın bir kimliği(id) vardır.Google da bu kimlik ile arama yaptığımızda bu e-posta ile bağlantılı bilgiler ile aramamız sınırlanacaktır.
+* <a style="color:red;">define</a> : Aradığımız girdi ile ilgili bilgi bulacaktır.
+* <a style="color:red;">maps</a> : Aradığımız lokasyon ile ilgili bilgi bulacaktır.
+* <a style="color:red;">book</a> : Aradığımız kitap ile ilgili bilgi bulacaktır.
+* <a style="color:red;">info</a> : Google girdiğimiz url ile ilgili web sayfası hakkında bilgiler ile aramayı sınırlayacaktır.
 <p>İlk bölümün sonuna geldik . İkinci bölümde Hackerlerin Google Dorku nasıl kullanarak bazı kritik bilgiler elde ettiğini inceleyeceğiz. 🙂</p>
