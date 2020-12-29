@@ -13,17 +13,17 @@ Değerli okuyucular Merhaba. Ben Ahmet Payaslıoğlu. Bu yazıda Steganography y
 
 Bu işlemi yapmak için Coagula programını kullanacağız. Programı açtıktan sonra , öncelikle File > New Image‘yi seçtikten sonra yükseklik ve genişlik ayarlarından ekranı büyütüyoruz.
 <img src="https://miro.medium.com/max/2400/0*po07Ifv6vKpLAnOp.png" alt="">
-Sonrasında siyah ekrana mouse yardımıyla istediğiniz yazıyı yazabilirsiniz.
+<p>Sonrasında siyah ekrana mouse yardımıyla istediğiniz yazıyı yazabilirsiniz.</p>
 <img src="https://miro.medium.com/max/2400/0*iSRuOj_Mru6Vet1P.png" alt="">
-Ok işareti ile gösterdiğim kutucuğa tıkladığımızda , yazının sese dönüştüğünü duyabilirsiniz.
+<p>Ok işareti ile gösterdiğim kutucuğa tıkladığımızda , yazının sese dönüştüğünü duyabilirsiniz.</p>
 <img src="https://miro.medium.com/max/2400/0*V8vKVurWItW06C5y.png" alt="">
-Yazıyı başarıyla ses dosyasının içerisine gömdük. Kaydetmek için File > Save Sound As seçeneğine tıklayalım. Dosyayı .wav uzantılı kaydettiğini görebilirsiniz. Bildiğiniz üzere .wav uzasıntısı ses dosyasını temsil ediyor. Şimdi bu dosyayı nasıl analiz edebiliriz buna bakalım.
+<p>Yazıyı başarıyla ses dosyasının içerisine gömdük. Kaydetmek için File > Save Sound As seçeneğine tıklayalım. Dosyayı .wav uzantılı kaydettiğini görebilirsiniz. Bildiğiniz üzere .wav uzasıntısı ses dosyasını temsil ediyor. Şimdi bu dosyayı nasıl analiz edebiliriz buna bakalım.</p>
 
 
 ## [](#header-2)Ses Dosyasın İçerisine Gizlenmiş Yazıyı Analiz Etme
 
-Bunun için Sonic Visualiser programını kullanacağız. Kendi işletim sisteminize uygun olanı indirdikten sonra , uygulamayı açalım.
-Uygulamayı açtıktan sonra , kaydettiğimiz ses dosyasını File>Open seçeneğinden seçelim.
+<p>Bunun için Sonic Visualiser programını kullanacağız. Kendi işletim sisteminize uygun olanı indirdikten sonra , uygulamayı açalım.</p>
+<p>Uygulamayı açtıktan sonra , kaydettiğimiz ses dosyasını File>Open seçeneğinden seçelim.</p>
 ### [](#header-3)Header 3
 
 ```js
