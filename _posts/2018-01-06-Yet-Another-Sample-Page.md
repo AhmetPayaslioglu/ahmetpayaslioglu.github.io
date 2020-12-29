@@ -15,7 +15,7 @@ Tarihte steganografi, hem şifreleme öncesi dönemde hem de sonrasında (ilgi �
 # [](#header-1)Ses Dosyasının İçerisine Yazıyı Gizleme
 
 Bu işlemi yapmak için Coagula programını kullanacağız. Programı açtıktan sonra , öncelikle File > New Image‘yi seçtikten sonra yükseklik ve genişlik ayarlarından ekranı büyütüyoruz.
-<a href="https://miro.medium.com/max/2400/0*po07Ifv6vKpLAnOp.png"></a>
+<img src="https://miro.medium.com/max/2400/0*po07Ifv6vKpLAnOp.png" alt="">
 ## [](#header-2)Header 2
 
 > This is a blockquote following a header.
