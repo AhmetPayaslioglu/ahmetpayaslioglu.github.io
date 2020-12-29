@@ -3,18 +3,19 @@ title: Ses Dosyası’nın İçerisine Yazı Gizleme | Steganography
 published: true
 ---
 
-Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
+Değerli okuyucular Merhaba. Ben Ahmet Payaslıoğlu. Bu yazıda Steganography yöntemiyle “Ses Dosyası’nın İçerisine Yazı Gizleme ” konusuna değineceğim.
+Öncelikle Steganography’den bahsetmek istiyorum.Steganografi, eski Yunanca’da “gizlenmiş yazı” anlamına gelir ve bilgiyi gizleme (önemli: şifreleme değil) bilimine verilen addır. Steganografi’nin şifrelemeye göre en büyük avantajı bilgiyi gören bir kimsenin gördüğü şeyin içinde önemli bir bilgi olduğunu fark edemiyor olmasıdır, böylece içinde bir bilgi aramaz (oysaki bir şifreli mesaj, çözmesi zor olsa bile, gizemi dolayısıyla ilgi çeker).
+Steganography’nin bir çok çeşidi vardır. Bu yazıda ses dosyasının içerisine yazı gizlemeyi deneyeceğim. Sonrasında bu ses dosyasını analiz ederek , gizlenmiş yazıyı bulacağız.
+Tarihte steganografi, hem şifreleme öncesi dönemde hem de sonrasında (ilgi çekmeme avantajından dolayı) kullanılmıştır.
+1.  Eski Yunanistan’da, insanlar mesajları tahtaya yazıp üzerini mumla kaplarlardı. Böylece cisim kullanılmamış bir tablete benzerdi öte yandan mumun eritilmesiyle birlikte içindeki gizli mesaj okunabilirdi.
+2.  Herodot’un bir hikâyesine göre Pers saldırısının öncesinde saçları tıraşlanan bir kölenin kafasına yazılan uyarı mesajı, saçlarının uzaması sayesinde saklanmıştır. Bu sayede, mesaj dikkat çekmeden gerekli yere ulaşabilmiş, ulaştığında da kölenin saçları tekrar kesilerek uyarı okunabilmiştir.
+3.  II. Dünya Savaşı sırasında, New York’taki, Japon millî ajanı (Velvalee Dickinson) oyuncak bebek pazarlamacısı kılığı altında saklanmaktaydı. Bu ajan, Amerikan ordusunun hareketlerini bebek siparişi içeren mektuplar içine saklayarak Güney Amerika’daki adreslere gönderiyordu.
+4.  Özellikle 1960’larda mor ötesi boya ile yazı yazabilen sprey ve kalemler moda idi. Bu kalemlerin yazdığı yazılar, sadece bir mor ötesi ışıkla görülebiliyordu.
 
-[Link to another page](another-page).
+# [](#header-1)Ses Dosyasının İçerisine Yazıyı Gizleme
 
-There should be whitespace between paragraphs.
-
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
-
-# [](#header-1)Header 1
-
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
-
+Bu işlemi yapmak için Coagula programını kullanacağız. Programı açtıktan sonra , öncelikle File > New Image‘yi seçtikten sonra yükseklik ve genişlik ayarlarından ekranı büyütüyoruz.
+<a href="https://miro.medium.com/max/2400/0*po07Ifv6vKpLAnOp.png"></a>
 ## [](#header-2)Header 2
 
 > This is a blockquote following a header.
@@ -72,10 +73,7 @@ end
 
 ### And an ordered list:
 
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
+
 
 ### And a nested list:
 
