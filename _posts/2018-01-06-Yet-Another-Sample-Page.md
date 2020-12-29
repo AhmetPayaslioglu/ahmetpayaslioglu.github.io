@@ -24,101 +24,19 @@ Bu işlemi yapmak için Coagula programını kullanacağız. Programı açtıkta
 
 <p>Bunun için Sonic Visualiser programını kullanacağız. Kendi işletim sisteminize uygun olanı indirdikten sonra , uygulamayı açalım.</p>
 <p>Uygulamayı açtıktan sonra , kaydettiğimiz ses dosyasını File>Open seçeneğinden seçelim.</p>
-### [](#header-3)Header 3
-
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
-
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
-
-#### [](#header-4)Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### [](#header-5)Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### [](#header-6)Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
+<img src="https://miro.medium.com/max/2400/0*6FU7l01Q83RmC5nU.png" alt="">
+<p>Seçtiğimiz dosya karşımıza bu şekilde gelecektir.</p>
+<img src="https://miro.medium.com/max/2400/0*ROneDsmo98BatPlF.png" alt="">
+<p>Frekanslar sıkışık olduğundan dolayı mouse’un scroll’unu yukarıya doğru döndermeliyiz. Bu sayede frekanslar genişleyecektir.</p>
+<img src="https://miro.medium.com/max/2400/0*RXczXQjQzbSswFQD.png" alt="">
+<p>Sonrasında gizlenmiş yazıyı analiz etmek için Sağ tık > Layer > Add Spectogram seçeneğine basıyoruz.</p>
+<img src="https://miro.medium.com/max/2400/0*ApiTvmfeZ1cISreW.png" alt="">
+<p>Sonrasında karşımıza gizlediğimiz yazı geliyor :) </p>
+<img src="https://miro.medium.com/max/2400/0*IDXGvHZP7b8jImVk.png" alt="">
+<p>Steganography yönteminin bir çeşidi olan Ses Dosyası’nın İçerisine Yazı Gizleme yöntemi ile yazımızı gizledikten sonra , tekrardan ses dosyasını analiz ederek , gizlenmiş yazıyı tespit ettik.</p>
 
 
 
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![](https://assets-cdn.github.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
+### [](#header-3)Kaynaklar
+* https://tr.wikipedia.org/wiki/Steganografi
+* https://yusufcancakircs.blogspot.com/2020/08/yaziyi-ses-dosyasinda-gizleme-steganography.html
