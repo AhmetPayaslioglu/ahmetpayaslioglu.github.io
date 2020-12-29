@@ -35,7 +35,7 @@ published: true
 <p>Zararlı kod Remnux tarafından pescanner aracı ile incelediğimde aşağıdaki gibi bir çıktı elde ediyoruz.</p>
 <img src="https://miro.medium.com/max/2400/0*Ed8GkQLCJkWMEPjD.png" alt="">
 <img src="https://miro.medium.com/max/2400/0*8IygsshMms_QXt9X.png" alt="">
-<p>Çıktıda şüpheli DLL dosyaları ve bu DLL’lerin kullandığı fonksiyonlara ait bilgiler gösterilmiştir. <b>CreateFileA</b> , <b>CreateFileW</b> fonksiyonları dosya okuma ve yazma işlemleri için , <b>connect</b> , <b>closesocket</b> fonksiyonları ağ bağlantısı açıp kapatmak için , <b>GetVersionExA</b> işletim sistemi versiyonun öğrenilmesi için , <b>GetCommandLineW</b> komut satırından komut çalıştırmak için, <b>LoadLibraryA</b> kütüphane yükleme işlemi için , <b>TerminateProcess</b> süreç sonlandırmak için kullanılan fonksiyonlardır. Araç bu fonksiyonları şüpheli olarak yorumlamıştır.</p>
+<p>Çıktıda şüpheli DLL dosyaları ve bu DLL’lerin kullandığı fonksiyonlara ait bilgiler gösterilmiştir. <b>CreateFileA</b> , <b>CreateFileW</b> fonksiyonları dosya okuma ve yazma işlemleri için , <strong>connect</strong> , <b>closesocket</b> fonksiyonları ağ bağlantısı açıp kapatmak için , <b>GetVersionExA</b> işletim sistemi versiyonun öğrenilmesi için , <b>GetCommandLineW</b> komut satırından komut çalıştırmak için, <b>LoadLibraryA</b> kütüphane yükleme işlemi için , <b>TerminateProcess</b> süreç sonlandırmak için kullanılan fonksiyonlardır. Araç bu fonksiyonları şüpheli olarak yorumlamıştır.</p>
 
 #### [](#header-4)Kaynaklar
 
