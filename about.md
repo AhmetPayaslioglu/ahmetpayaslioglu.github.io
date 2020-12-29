@@ -4,3 +4,4 @@ title: About
 ---
 
  Selam.Öncelikle bloğumu ziyaret ettiğin için teşekkür ederim .Ben Ahmet Payaslıoğlu .Adli Bilişim Mühendisliği öğrencisiyim. Kendimi gün geçtikçe Siber Güvenlik ve Adli Bilişim alanında geliştirmeye çalışıyorum. Türkçe Dokümanların çoğalması adına yaptığım çalışmaları bloğumda paylaşıyorum.
+<img src="https://miro.medium.com/fit/c/131/131/1*u4kSZuQsWpvaWcc5X9srKQ.jpeg" alt="Ahmet Payaslıoğlu" style="width:100%">
