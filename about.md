@@ -29,8 +29,7 @@ img {
 <body>
 
 <div class="container">
-  <h2>Circle</h2>
-  <p>The .rounded-circle class shapes the image to a circle:</p>            
+            
   <img src="/saas.jpeg" class="rounded-circle" alt="Cinque Terre" width="304" height="236"> 
 </div>
 
