@@ -35,7 +35,7 @@ published: true
 <p>Zararlı kod Remnux tarafından pescanner aracı ile incelediğimde aşağıdaki gibi bir çıktı elde ediyoruz.</p>
 <img src="https://miro.medium.com/max/2400/0*Ed8GkQLCJkWMEPjD.png" alt="">
 <img src="https://miro.medium.com/max/2400/0*8IygsshMms_QXt9X.png" alt="">
-<p>Çıktıda şüpheli DLL dosyaları ve bu DLL’lerin kullandığı fonksiyonlara ait bilgiler gösterilmiştir. <b>CreateFileA</b> , <b>CreateFileW</b> fonksiyonları dosya okuma ve yazma işlemleri için , <a style="color:red;">connect</a> , <a style="color:red;">closesoccet</a></b> fonksiyonları ağ bağlantısı açıp kapatmak için , <a style="color:red;">GetVersionExA</a> işletim sistemi versiyonun öğrenilmesi için , <a style="color:red;">GetCommandLineW</a> komut satırından komut çalıştırmak için, <a style="color:red;">LoadLibraryA</a> kütüphane yükleme işlemi için ,  <a style="color:red;">TerminateProcess</a> süreç sonlandırmak için kullanılan fonksiyonlardır. Araç bu fonksiyonları şüpheli olarak yorumlamıştır.</p>
+<p>Çıktıda şüpheli DLL dosyaları ve bu DLL’lerin kullandığı fonksiyonlara ait bilgiler gösterilmiştir. <a style="color:red;">CreateFileA</a> ,  <a style="color:red;">CreateFileW</a> fonksiyonları dosya okuma ve yazma işlemleri için , <a style="color:red;">connect</a> , <a style="color:red;">closesoccet</a> fonksiyonları ağ bağlantısı açıp kapatmak için , <a style="color:red;">GetVersionExA</a> işletim sistemi versiyonun öğrenilmesi için , <a style="color:red;">GetCommandLineW</a> komut satırından komut çalıştırmak için, <a style="color:red;">LoadLibraryA</a> kütüphane yükleme işlemi için ,  <a style="color:red;">TerminateProcess</a> süreç sonlandırmak için kullanılan fonksiyonlardır. Araç bu fonksiyonları şüpheli olarak yorumlamıştır.</p>
 
 #### [](#header-4)Kaynaklar
 
