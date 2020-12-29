@@ -3,73 +3,28 @@ title: DEEP-DARK Web Nedir?
 
 published: true
 ---
-<p>Bu yazıda sizlere Google Dorks ‘un ne olduğunu ve nasıl kullanıldığını göstereceğim.
-Bu seri 2 kısımdan oluşacak. İlk bölümün amacı normal kullanıcılar için Google Dorks’un nasıl kullanıldığını ve basit sorgular yaparak günlük hayattaki araştırmalarına hız kazandırmak için olacaktır. İkinci bölümde ise daha çok hackerlerin hangi sorgular yaparak Google Dorks’tan bilgiler edindiğini anlatacağım. İlk bölüme başlayalım.
-Google Dorks , Google üzerinde , aradığınızı daha kolay bir şekilde bulmanıza yardımcı olan bir takım sorgulardır. Google operatörleri, aramamızı kolay ve hassas hale getirmek için bize bazı kolaylıklar sağlar. Bazen bir şeyler araştırırken bir sürü sayfa değiştirmek zorunda kalırız ve istediğimiz bilgiyi elde edemeyiz. İşte tam bu zaman da yardımımıza Google Dorks koşuyor. İstediğimiz bilgilere daha kolay ulaşabilmemiz bizim için önemli bir durum. Bu operatörlerden bazılarını aşağıda göstereceğim.</p>
+<p>Bu yazımda Deep-Dark web konularını ele alacağım. Biraz teknik kavramlardan sonra ,soru cevap şekilde sohbet havasında sizlere DEEP/DARK webten bahsedeceğim. Deep ve Dark web birbirine sürekli olarak karıştırılan kavramlardır. Bu iki kavramı detaylı olarak ele alacağız.</p>
 
 
-# [](#header-1)Google Dorks Örnekleri
+# [](#header-1)DEEP WEB
 
-<a style="color:red;">site</a>
-<p>örnek -> site:sibertehdit.com</p>
-<p>Bu arama sözcüğünü kullandığımız zaman sadece o siteye ait sayfalar gelir.</p>
-<img src="https://miro.medium.com/max/700/1*pPpjrpim9QMIJPaDw3y4SQ.png" alt="">
+<p>Deep webe şöyle bir başlangıç yapmak istiyorum. Arama motorları tarafından indexlenmeyen her türlü içeriğe deep web diyebiliriz. Bunlara örnek olarak youtube’de paylaştığınız gizli bir video olabilir veya blog sitenizde yazdığınız fakat yayınlamayıp taslak olarak kaydettiğiniz bir yazıda deep web kapsamındadır. Çünkü arama motorları tarafından bu içeriklere ulaşamazsınız. Biraz daha teknik olarak bir bilgi vermek gerekirse , örneğin websitenizde kullandığınız robot.txt dosyasının içerisinde , arama motorlarının görmemesini istediğiniz içerikleri depoladığınız dosyada aslında deep webte yer alıyor diyebiliriz. Çünkü arama motorları tarafından , veya Google robotları tarafından o dosyalar indexlenmiyor. Örnekleri biraz daha çoğaltırsak , Google drive gibi , mega gibi depolama alanlarıda , sadece size özel olarak dosyaların olduğu gizli içerikler’de bir deep web örneğidir. Tahmin etmişsinizdir ki , her insanın bir yerlerde özel verileri olabilir. Ve bunlar arama motorlarından ulaşılmaması ve görülmemesi gerekir. Deep web dediğimiz kavram kısaca , arama motorlarında gözükmeyen , indexlenmemiş bütün içeriklere diyebiliriz. Şimdi dark web kavramını ele alalım. </p>
 
-<a style="color:red;">site</a>
-<p>örnek -> site:sibertehdit.com</p>
-<p>Bu arama sözcüğünü kullandığımız zaman sadece o siteye ait sayfalar gelir.</p>
-<img src="https://miro.medium.com/max/700/1*pPpjrpim9QMIJPaDw3y4SQ.png" alt="">
+# [](#header-2)DARK WEB
 
-<a style="color:red;">intext</a>
-<p>Örnek -> intext:sibertehdit</p>
-<p>İçerisinde sibertehdit kelimesinin geçtiği websitelerini bulur.</p>
-<img src="https://miro.medium.com/max/700/1*OunInVF8RjxOLpmaiv9omg.png" alt="">
+<p>Dark web , özel vpn’ler aracılığıyla girilen , bir sürü farklı sunucu üzerinden geçerek , takip edilmesi çok zor olan bir ağ diyebiliriz. Önceden kulağınıza gelen , hackerler, uyuşturucu kaçakçıları , kiralık katiller gibi yasadışı pek çok içeriğin olduğu ortam Dark web olarak anılıyor. Ve bunlar yeni olan şeyler değil. Dark webte uyuşturucu satışı 1970lerden beri devam ediyor. Ayrıca takip edilmemek için alışverişlerini bitcoin yoluyla yapıyorlar. Bildiğiniz üzere bitcoin takip edilemeyen , hiçbir ülkeye bağlı olmayan bir kripto para birimi. Haliyle bunu fırsat bilen yasadışı örgütler Dark webte bitcoini kendi çıkarları için kullanabiliyorlar.</p>
+<p>Arpanetin başlangıcıyla beraber (internetin yaratılışı) , bu tarz yasadışı işler başladı. Bu durumu gören Amerika Birleşik Devletleri , Tor ağını kurdu. 2002 yılında Amerika Deniz Kuvvetleri tarafından kurulan Tor ağı , ne amaçla kurulmuş olabilir bir fikriniz var mı ? Bir devlet neden böyle bir gizli ağa ihtiyaç duymuş olabilir ? Asıl amaçları , kendi ajanlarının birbirleri ile kriptolanmış bir şekilde mesajlaşması için böyle bir ağa ihtiyaç duyuyorlar. Tor çalışmalarına 1990 lı yıllarda başlayıp 2000 li yıllarda Tor ağını yayınlıyorlar. Peki aklınıza şöyle bir soru gelebilir. Bu kadar gizli bir ağ neden public olarak yani herkese açık bir şekilde paylaşıyorlar ? Evet bu soruya şöyle bir cevap verebiliriz. Ajanların yaptığı gizli görüşmeleri gizlemenin en iyi yolu , bir sürü insanın kullandığı bir ağda gerçekleştirirlerse , haliyle binlerce milyonlarca ayak izi olabilir. Ve gizlenmek isteyen kişiler dikkat çekmezler. Takip edilmesi çok zor olur çünkü ortada bir sürü log kaydı var. Böylece takip edilmesi çok zor bir hal alır. Bu taktikle beraberi Tor ağını herkese açık yapıyorlar ve dikkat çekmeden gizli görüşmeleri gerçekleştiriyorlar. Sonrası bu ağ çok fazlasıyle büyüyor. Ve şuan günümüzde kontrol edilmesi çok güç bir hal alıyor.</p>
 
-<a style="color:red;">intitle</a>
-<p>Örnek-> intitle:sibertehdit</p>
-<p>Bu sorgu, yalnızca sayfaların başlıklarında “sibertehdit” terimlerini içeren sayfaları getirir.</p>
-<img src="https://miro.medium.com/max/700/1*VTG8CW0qQPZu0t8wBqjBtQ.png" alt="">
+# [](#header-3)PEKİ DARK WEBE NASIL ERİŞEBİLİRİM?
+ <p>Bundan sonraki yazacağım şeyler , güvenliğiniz için önermediğim , ve merak edip girilmemesi gereken şeyler olarak düşünüyorum. Çünkü dolandırılabilirsiniz, makinanıza geri dönüşü olmayan virüsler (ransomware) girebilir veya saldırıya uğrayabilirsiniz. Şunu hatırlatmak isterimki Dark webte sadece suçlular yer almıyor.Tahmin ettiğiniz üzere kolluk güçleride oralara kolayca giriş yapıp gezinebilirler. Veya makinanız bir zombi ağına dönüşüp , siz farketmeden bir sunucuya saldırıyor olabilirsiniz. Aslında ddos atakların temel sebeplerinden birisi bu. Bu tarz şeyler olmaması için gerekmedikçe böyle ortamlara girmemeniz gerektiğini önemle vurguluyorum! Fakat bilgilenmeniz için , Dark webe nasıl girilir , veya Dark webde ne gibi içerikler var biraz bahsetmek istiyorum. </p>
+<p>Öncelikle dark webe girmek için Linux tabanlı bir distro olan Whonix ile girebilirsiniz. Bunu makinanıza indirerek Virtual box üzerinde çalıştırabilirsiniz. Bu distrol yoluyla , Tor ağınızla aranızdaki bağlantıyı şifreleyip , kendinizi gizleyebilirsiniz. Aslında Tor ağı zaten şifreliyor verileri fakat bu distro yoluyla daha fazla şifreleyerek , bir tık daha anonim olabilirsiniz. Bunlara vaktim yok , yazdığımızda karşıma çıkacak ve illegal işlerle işim yok , sadece yararlı şeyler için DarkWebe gireceğim diyorsanız , direk makinanıza Bir firefox türü olan TOR Browseri kurup kolayca giriş yapabilirsiniz. Tor browser, sizi bağlandığınız anda bağlantınızı şifreleyerek , anonim olmanızı sağlayan bir tarayıcı türü.</p>
 
-<a style="color:red;">inurl</a>
-<p>Örnek-> inurl:sibertehdit</p>
-<p>Bu sorgu belirtilen terimi url’de arar.</p>
-<img src="https://miro.medium.com/max/2400/1*ESgJfBr3uEdo375QuhAfxA.png" alt="">
+# [](#header-4)Dark Webte Neler Var?
+<p> Tahmin edebiliyorumki önceden duyduğunuz kadarıyla tamamen bataklık olarak gözüken dark webte , birazda olsa yararlı şeylerde var aslında. Bunlara örnek olarak , bir çok kitabı veya eğitim serisini ücretsiz olarak bulabileceğiniz sitelerde mevcut. Fakat yeterli bilgiye sahip değilseniz , Darkwebten bir şeyler indirmenizi tavsiye etmiyorum. Yok illa bunları merak ettim , bakmak istiyorum diyorsanız , sosyal medya hesaplarımdan bana ulaşırsanız , DarkWebteki yararlı içerikleri sizlere atabilirim. Burda yazmamamın sebebi insanları yanlış yönlendirmek istemiyorum.</p>
+<p>Şimdide insanların aklına kazınmış yasa dışı işlerden biraz bahsetmek istiyorum. DarkWebte yasa dışı olarak satılan uyuşturucu siteleri , kiralık katiller , kiralık hackerler , silah satıcıları , devletlerin gizli verileri gibi bir çok etik olmayan içerik yer alıyor. Buraya yazmaktan çekindiğim bir sürü yasadışı faliyette yer alıyor. Fakat bunlara asla güvenmemelisiniz ve ticaret yapmamalısınız. Geçtiğimiz günlerde bir youtuber , denemek amaçlı DarkWebten kiralık hacker tuttu ve hızlı bir şekilde dolandırıldı . Peki kime şikayet edebilirsiniz ? Tabikide kimseye . Karşınızda kim olduğunu bilmiyorsunuz , kime para yolladığınızı bile bilmiyorsunuz çünkü Bitcoin ile ödeme alıyorlar. Lütfen böyle yerlerde bulunmayınız ve alışveriş yapmayınız. Yoksa beklemediğiniz bir anda suç teşkil edecek bir olayda bulabilirsiniz kendinizi.</p>
 
-<a style="color:red;">filetype</a>
-<p>örnek -> filetype:pdf</p>
-<p>Bu sorgu , aradığınız terimin hangi tipte olduğunu belirtir (pdf,docx,txt,jpg gibi). Örnek olarak ben pentest alanındaki pdf’leri aramak istiyorsam bu sorguyu şöyle kullanabilirim : pentest filetype:pdf</p>
-<img src="https://miro.medium.com/max/700/1*iY2c5wU5aaRyOOxtng1DIg.png" alt="">
+# [](#header-5)Dark Webe Girmek Suçmu?
+<p>Türkiye Cumhuriyeti Yasalarında bununla alakalı bir konu yer almıyor. Yani size direk olarak DarkWebe girmek suç diye bir şey söyleyemeyiz. Fakat DarkWeb’in içeriklerine baktığımızda , neredeyse içeriklerin çoğunluğu suç teşkil ettiği için , başınız ağrıyabilir. Unutmayın ne kadar anonim olursanız olun , TOR ağının bir sahibi var.</p>
 
-<a style="color:red;">cache</a>
-<p>örnek -> cache:sibertehdit.com</p>
-<p>Bu sorgu , geçerli sayfanın yerine web sayfasının önbelleğe alınmış halini getirir.</p>
-<img src="https://miro.medium.com/max/700/1*IWXu2tyy1cYW2ug_efWRjQ.png" alt="">
-
-<a style="color:red;">related</a>
-<p>örnek -> related:thehackernews.com</p>
-<p>Thehackernews sayfasına benzer websitelerini arar.</p>
-<img src="https://miro.medium.com/max/700/1*sHKVXX6a9vdA9RlREZR8oA.png" alt="">
-
-<a style="color:red;">=? operatörü</a>
-<p>örnek-> 1 bitcoin=?usd</p>
-<p>=? operatörü bize sol tarafdaki değerin , sağ tarafdaki değer bazında kaç olduğunu getirir. Örnek olarak 1 bitcoin kaç dolar diye sormuş oldum.</p>
-<img src="https://miro.medium.com/max/700/1*VlGn4lVG-xWmKwbtsaV4UA.png" alt="">
-
-<p>Bazı sorguları inceledik . Daha bir sürü sorgu olduğu için geriye kalan sorgulardan birazını aşağıda listelemek istiyorum.</p>
-
-# [](#header-2)Diğer Örnekler:
-* Url : İnternet’te bir kaynağa (belge veya resim gibi) rastgelen, standart bir formata uygun bir karakter dizgisidir.
-* allintext : Aradığımız tüm text dosyalarını bulacaktır.
-* link : Aradığımız link’e ait sayfaları bulacaktır
-* inanchor : Google aradığımız içerik bilgisi ile bağlantılı, içeriklere sahip bağlantılar ile aramamızı kısıtlayacaktır.
-* numrange : Google aradığımız numara veya numara aralıklarını bulacaktır.
-* daterange : Aradığımız tarih veya tarih aralıklarını bulacaktır.
-* author : Aradığımız yazara ait bilgileri bulacaktır.
-* groups : Google aradığımız bir topluluk ismini google groups da bulunan makaleler ve benzer isimdeki topluluk içerikleri ile sınırlandıracaktır.
-* insubject : Google, konuyla belirttiğimiz terimleri içeren içerikler(makale vb.) ile sınırlar.
-* msgid : (message id yani Türkçe adı ile mesaj kimliği) Her e-postanın bir kimliği(id) vardır.Google da bu kimlik ile arama yaptığımızda bu e-posta ile bağlantılı bilgiler ile aramamız sınırlanacaktır.
-* define : Aradığımız girdi ile ilgili bilgi bulacaktır.
-* maps : Aradığımız lokasyon ile ilgili bilgi bulacaktır.
-* book : Aradığımız kitap ile ilgili bilgi bulacaktır.
-* info : Google girdiğimiz url ile ilgili web sayfası hakkında bilgiler ile aramayı sınırlayacaktır.
-<p>İlk bölümün sonuna geldik . İkinci bölümde Hackerlerin Google Dorku nasıl kullanarak bazı kritik bilgiler elde ettiğini inceleyeceğiz. 🙂</p>
+# [](#header-6)Dark Webe Girmek Suçmu?
+<p>Eğer link uzantısının sonu .onion ile bitiyorsa , bu link Darkwebte yer alıyor diyebiliriz. Aslında günümüz internetinde sizler nasıl (.com / .org / .tr) gibi uzantılar satın alıyorsanız, Dark Webte’de bu şekilde .onion uzantılı bir domain satın alabilirsiniz. .oniondan önce gelen URL kısmı ne kadar kısaysa domain fiyatları o kadar artıyor. Buda ufak bir bilgi olsun.</p>
