@@ -22,16 +22,3 @@ img {
 
 </body>
 </html>
-<html lang="en">
-<head>
-
-</head>
-<body>
-
-<div class="container">
-            
-  <img src="cinqueterre.jpg" class="rounded-circle" alt="Cinque Terre" width="304" height="236"> 
-</div>
-
-</body>
-</html>
