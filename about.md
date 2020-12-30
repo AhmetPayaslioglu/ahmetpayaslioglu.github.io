@@ -13,7 +13,7 @@ img {
   /* display: inline; */
   margin-left: auto;
   margin-right: auto;
-  border-radius: 60%;
+  border-radius: 15px;
 }
 .profile-photo-center {
   text-align: center;
