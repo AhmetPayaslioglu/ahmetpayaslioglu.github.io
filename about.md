@@ -10,7 +10,7 @@ title: About
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 img {
-  display: block;
+  /* display: block; */
   margin-left: auto;
   margin-right: auto;
 }
