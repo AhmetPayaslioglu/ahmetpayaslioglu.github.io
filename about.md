@@ -16,7 +16,7 @@ img {
   border-radius: 50%;
 }
 .profile-photo-center {
-  text-align: left;
+  text-align: center;
 }
 </style>
 </head>
