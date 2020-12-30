@@ -13,17 +13,16 @@ img {
   /* display: inline; */
   margin-left: auto;
   margin-right: auto;
-  border-radius: 15px;
 }
 .profile-photo-center {
   text-align: center;
-  
+  border-radius: 15px;
 }
 </style>
 </head>
 <body>
 
-<p class="img"><img src="/saas.jpeg"  alt="Ahmet Payaslıoğlu" style="width:40%"></p>
+<p class="profile-photo-center"><img src="/saas.jpeg"  alt="Ahmet Payaslıoğlu" style="width:40%"></p>
 
 </body>
 </html>
