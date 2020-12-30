@@ -22,7 +22,7 @@ img {
 </head>
 <body>
 
-<p class="profile-photo-center"><img src="/saas.jpeg"  alt="Ahmet Payaslıoğlu" style="width:40%"></p>
+<p class="profile-photo-center"><img src="/circle-cropped (1).png"  alt="Ahmet Payaslıoğlu" style="width:40%"></p>
 
 </body>
 </html>
