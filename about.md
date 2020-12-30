@@ -13,10 +13,10 @@ img {
   /* display: inline; */
   margin-left: auto;
   margin-right: auto;
-  border-radius: 15px;
 }
 .profile-photo-center {
   text-align: center;
+  border-radius: 15px;
 }
 </style>
 </head>
