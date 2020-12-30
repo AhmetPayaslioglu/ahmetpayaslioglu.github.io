@@ -10,16 +10,19 @@ title: About
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 img {
-  /* display: inlineblock; */
+  /* display: inline; */
   margin-left: auto;
   margin-right: auto;
   border-radius: 50%;
+}
+.profile-photo-center {
+  text-align: center;
 }
 </style>
 </head>
 <body>
 
-<p><img src="/saas.jpeg"  alt="Ahmet Payaslıoğlu" style="width:40%"></p>
+<p class="profile-photo-center"><img src="/saas.jpeg"  alt="Ahmet Payaslıoğlu" style="width:40%"></p>
 
 </body>
 </html>
