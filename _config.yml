@@ -4,7 +4,7 @@ author:
   name: "AhmetPayaslioglu"
   email: "someone@somewebsite.somedomain"
   url: "https://ahmetpayaslioglu.github.io/"
-
+google_analytics: [G-FYEEBHBLRC]
 baseurl: /
 
 source: .
