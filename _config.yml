@@ -4,7 +4,6 @@ author:
   name: "AhmetPayaslioglu"
   email: "someone@somewebsite.somedomain"
   url: "https://ahmetpayaslioglu.github.io/"
-google_analytics: [G-FYEEBHBLRC]
 baseurl: /
 
 source: .
@@ -30,4 +29,4 @@ plugins:
 # Custom variables
 owner : "AhmetPayaslioglu"
 year : "2020"
-google_analytics: [G-FYEEBHBLRC]
+google_analytics: [UA-186298091-1]
