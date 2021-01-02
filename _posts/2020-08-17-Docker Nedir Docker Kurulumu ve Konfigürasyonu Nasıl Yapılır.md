@@ -72,8 +72,8 @@ Docker ile Linux, Windows ve MacOSX üzerinde Linux ve Windows sanal containerle
 <p><a style="color:red;">docker ps -a</a></p>
 <img src="https://miro.medium.com/max/700/0*Lqc_jzaRUawIvkDa.png" alt="" >
 <p>Çalışan konteyneri durdurduktan sonra kaldırmak için aşağıdaki görüntüdeki gibi stop komutundan sonra rm komutunu kullanabilirsiniz. proses komutu yardımı ile durup durmadığını kontrol edebilirsiniz.</p>
+<p><a style="color:red;">docker rm ignitedocker</a></p>
 <p><a style="color:red;">docker stop <.docker-container> </a></p>
-<p><a style="color:red;">ocker rm ignitedocker</a></p>d
 <p><a style="color:red;">ps -a</a></p>
 <img src="https://miro.medium.com/max/700/0*zB1s_lkhAIUKHiB3.png" alt="" >
 
@@ -88,7 +88,7 @@ Docker ile Linux, Windows ve MacOSX üzerinde Linux ve Windows sanal containerle
 <p><a style="color:red;">cat {path} |docker import — siberlab</a></p>
 <img src="https://miro.medium.com/max/700/0*I5ihdwiDn9XrdQaD.png" alt="" >
 <p>Başka bir docker üzerine yükleyebileceğiniz konteyner imajını kaydetmek için save komutunu kullanabilirsiniz. Daha sonra bu “kaydedilmiş” görüntüleri yeni bir docker üzerine yükleyebilir ve bu imajı çalıştırabilirsiniz.</p>
-<p><a style="color:red;">docker save <container name> | gzip > {path for tar} siberdocker.gz</a></p>
+<p><a style="color:red;">docker save <.container name> | gzip > {path for tar} siberdocker.gz</a></p>
 <p><a style="color:red;">docker load -i /{path}/siberdocker.gz</a></p>
 <img src="https://miro.medium.com/max/700/0*ZwJMFuX6GaTA59iz.png" alt="" >
 <p>En sonda yukarıdaki fotoğrafta görüldüğü üzere docker imajını , en son olarak docker images diyerek yüklenip yüklenmediğini kontrol edebiliriz. Yukarıdaki fotoğrafta gördüğümüz üzere siberlab başarıyla yüklenmiş.</p>
