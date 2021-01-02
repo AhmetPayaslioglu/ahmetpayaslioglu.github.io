@@ -14,11 +14,6 @@ published: true
 <p>Bu arama sözcüğünü kullandığımız zaman sadece o siteye ait sayfalar gelir.</p>
 <img src="https://miro.medium.com/max/700/1*pPpjrpim9QMIJPaDw3y4SQ.png" alt="">
 
-<a style="color:red;">site</a>
-<p>örnek -> site:sibertehdit.com</p>
-<p>Bu arama sözcüğünü kullandığımız zaman sadece o siteye ait sayfalar gelir.</p>
-<img src="https://miro.medium.com/max/700/1*pPpjrpim9QMIJPaDw3y4SQ.png" alt="">
-
 <a style="color:red;">intext</a>
 <p>Örnek -> intext:sibertehdit</p>
 <p>İçerisinde sibertehdit kelimesinin geçtiği websitelerini bulur.</p>
