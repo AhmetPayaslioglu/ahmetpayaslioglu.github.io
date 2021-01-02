@@ -1,10 +1,7 @@
 ---
 layout: default
 ---
-<div class="content">
-  <div class="post">{{ content }}</div>
-  {% include share-page.html %}
-</div>
+
 <article>
   <h2>{{ page.title }}</h2>
   <time datetime="{{ page.date | date_to_xmlschema }}" class="by-line">{{ page.date | date_to_string }}</time>
