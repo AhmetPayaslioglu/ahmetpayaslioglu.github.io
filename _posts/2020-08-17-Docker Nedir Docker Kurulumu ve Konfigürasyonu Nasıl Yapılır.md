@@ -32,43 +32,64 @@ Docker ile Linux, Windows ve MacOSX üzerinde Linux ve Windows sanal containerle
 <a style="color:red;">docker –version</a>
 <p>Ayrıca, docker’ın hizmetinizde sunduğu tüm seçenekleri bilmek için docker’da help komutunu çalıştırabilirsiniz.</p>
 <a style="color:red;">docker –help</a>
+<p><img src="https://miro.medium.com/max/700/0*kR-_ExTSLaYyEILr.png" alt=""></p>
+<p>Docker açılıp çalışmaya başladığında, docker konteynerinizdeki herhangi bir imajı çalıştırabilir veya çekebilirsiniz. Örneğin, burada Hello World’u çalıştırmayı deniyoruz . Aşağıdaki komutu çalıştırdığınızda, öncelikle yerel deponuzu kontrol edecektir; görüntü orada yoksa docker hub‘dan çekecektir.</p>
+<p><a style="color:red;">docker run hello-world</a></p>
+<img src="https://miro.medium.com/max/692/0*FpU_BBCPnwUQ-zv0.png" alt="">
 
 
 
-### [](#header-3)foremost -h
 
-<p>Yukarıda gördüğünüz bazı parametleri açıklamak istiyorum</p>
-
-*  -v tararken bize ayrıntılı bilgi verir
-*  -q hızlı modda tarama yapar
-*  -t ile alınacak dosya türünü belirtebiliriz örnek ( pdf,jpeg,docx,png)
-*  -o ile bu verileri hangi dosyaya çıkartmak istediğimizi belirtiriz
-<p>Şimdi de hangi disk üzerinden veri kurtarma yapacağımıza bakmamız için fdisk -l komutunu yazıyoruz . Bu komut mevcut disklerinizi görüntüleyecektir . Ben flash disk üzerindeki silinmiş bir kaç veriyi geri getireceğim. Aşağıdaki fotoğrafta gördüğünüz üzere benim flash diskim /dev/sdb olarak gözüküyor</p>
-<img src="https://miro.medium.com/max/700/1*mC19pLQfgCy-ExpkpJYSwg.jpeg" alt="">
+### [](#header-3)Docker Üzerine Ubuntu Kurulumu
 
 
-<p>Diskimizin isminide öğrendiğimize göre artık veri kazıma işlemine başlayabiliriz.</p>
-<p>foremost -v -q -t jpeg,pdf -o ahmetpayas /dev/sdb komutunu yazarak veri kurtarma işlemini başlatıyorum. Bu işlem geri getirmek istediğiniz verilerin boyutuna göre zaman değişkenliği gösterebilir.</p>
-<img src="https://miro.medium.com/max/700/1*mC19pLQfgCy-ExpkpJYSwg.jpeg" alt="">
-<p>İşlem bittikten sonra 1 adet pdf dosyası ve 1 adet jpg dosyasını geri getirdiğini söyledi. Yazının başında zaten bu verileri geri getirmek istediğimi ve bunları bilerek sildiğimi belirtmiştim. Yani amacımıza ulaştık.</p>
-<img src="https://miro.medium.com/max/2400/1*KluWxWvkS0oMI7_Ei7_8fQ.png" alt="">
-<p>Şimdi verilerimizi kontrol edelim bir problem veya eksiklik var mı diye.
-ahmetpayas dizinine gidiyorum. 3 tane dosya ile karşılaşıyorum.
-1.si audit.txt = geri getirmeye çalıştığımız veri kazıma sürecindeki ayrıntılı bilgileri veriyor.
-2.si jpg klasörü
-3.sü pdf klasörü
-Öncelikle jpg dosyamı kontrol ediyorum. display (dosya adı) komutuyla resmimi açıyorum. Aşağıdaki fotoğrafta gördüğünüz gibi problemsiz bir şekilde veriyi geri getirdik.
-</p>
-<img src="https://miro.medium.com/max/2400/1*PVTqtxVoy0p4rSd4GchhCw.png" alt="">
-<p>Sonrasında pdf klasörümüze bir göz atalım . Pdf dosyamı açmak için xdg-open (dosya adı) komutunu kullanıyorum. Aşağıdaki resimde gördüğünüz gibi pdf dosyamda sorunsuz bir şekilde geri getirildi.</p>
-<img src="https://miro.medium.com/max/2400/1*mJwiucuw8kO_1CvCAwIYWg.png" alt="">
+<p>Docker , komut satırı gibi çalıştığı için (CLI) bu nedenle doğrudan terminalden istediğiniz herhangi bir imajı arayabilirsiniz. Mesela, burada Ubuntu’yu aradık. Burada dikkat edilmesi gereken bir husus var. Yıldızı fazla olan imajın , orijinal olma ihtimalı daha yüksektir. Ubuntu imajını aramak için aşağıdaki komutu yazıyoruz.</p>
+
+<p><a style="color:red;">docker search ubuntu</a></p>
+<img src="https://miro.medium.com/max/700/0*B1fJ81FSzMzHXuY2.png" alt="">
+<p>İmajı bulduğunuzda, aşağıdaki komutla onu konteynırınıza çekebilirsiniz:</p>
+
+<p><a style="color:red;">docker pull ubuntu</a></p>
+<img src="https://miro.medium.com/max/667/0*rR3k2GPTVziK_MbH.png" alt="">
+<p>Şimdi docker’ınızda kaç tane imajımızın olduğunu kontrol etmek için aşağıdaki komutu yazmalıyız.</p>
+<p><a style="color:red;">docker images</a></p>
+<img src="https://miro.medium.com/max/700/0*3p0Se3cdI1NKCHXK.png" alt="">
+<p>Herhangi bir imajı kaldırmak için aşağıdaki komutu kullanabilirsiniz.</p>
+<p><a style="color:red;">docker rmi hello-world</a></p>
+<img src="https://miro.medium.com/max/700/0*CQOkYYD7NuGqo0I5.png" alt="">
+<p>Yukarida verdiğim rmi komutu imajı kaldırmayı ifade eder. İmajı kaldırdıktan sonra tekrardan <p><a style="color:red;">docker images</a></p> yazdığımızda hello-world’un kaldırılmış olduğunu görüyoruz.</p>
+<img src="https://miro.medium.com/max/700/0*xULxHBbn2LYtHk7_.png" alt="">
+<p>Şimdi, ps komutunun verdiği detaylarda, ubuntu imajlarımızın isminin her imaj için docker tarafından üretilen rastgele bir isim olan <a style="color:red;">adoring curie</a> olduğunu görebilirsiniz . Bu adı yeniden adlandırmak için aşağıdaki komutu kullanabiliriz. İsmini <a style="color:red;">ignite</a> olarak değiştirdikten sonra tekrar kontrol etmek için <a style="color:red;">docker ps</a> komutunu kullanıyoruz. Aşağıda gördüğünüz gibi isim değişmiş durumda.</p>
+<p><a style="color:red;">docker run -it -d ubuntu</a></p>
+<p><a style="color:red;">docker run -it -d –name “ignite” ubuntu</a></p>
+<p><a style="color:red;">docker ps</a></p>
+<img src="https://miro.medium.com/max/700/0*44nPGg_yoZJIHxzB.png" alt="" >
+<p>Çalışan konteynerı etkileşimli hale getirmek için <a style="color:red;">attach</a> komutu kullanılır</p>
+<p><a style="color:red;">docker attach ignite</a></p>
+<img src="https://miro.medium.com/max/636/0*Dt-YlqmHXc3g_puc.png" alt="" >
+<p>Ps komutunu kullanarak docker’da çalışan tüm işlemleri görebiliriz.</p>
+<p><a style="color:red;">docker ps</a></p>
+<p><a style="color:red;">docker ps -a</a></p>
+<img src="https://miro.medium.com/max/700/0*Lqc_jzaRUawIvkDa.png" alt="" >
+<p>Çalışan konteyneri durdurduktan sonra kaldırmak için aşağıdaki görüntüdeki gibi stop komutundan sonra rm komutunu kullanabilirsiniz. proses komutu yardımı ile durup durmadığını kontrol edebilirsiniz.</p>
+<p><a style="color:red;">docker stop <.docker-container> </a></p>
+<p><a style="color:red;">ocker rm ignitedocker</a></p>d
+<p><a style="color:red;">ps -a</a></p>
+<img src="https://miro.medium.com/max/700/0*zB1s_lkhAIUKHiB3.png" alt="" >
+
+#### [](#header-4)Docker İmajlarını Dışarıya Aktarabiliriz
 
 
-##### [](#header-5)Verileri Kalıcı Olarak Silme İşlemi
 
-<p>Gördüğünüz gibi istediğim verileri geri getirmiş oldum. Şimdi bu verileri ne yapsaydık geri getiremezdik ondan bahsetmek istiyorum . Silinen verileri nasıl geri kurtarma işlemi yapamayız biraz da onlara değineceğim . Yazının başında biraz bahsetmiştim . Wipe işlemi yapılan disklerdeki verileri geri kurtaramayız. Wipe dediğimiz kavram verinin üzerinde binlerce yeni veri ekleyerek eski verileriniz tamamen yokolmasına yol açar. Peki nasıl wipe yaparız diyorsanız , wipe işlemi için bazı araçlar var fakat en basitinden windows -> biçimlendir yaparak wipe edebilirsiniz. Dikkat edin genelde hızlı biçimlendirme kutucuğu dolu olarak gelir. O kutucuktaki tik işaretini kaldırmanız gerekiyor. Sonrasında biçimlendirme işlemini başlatabilirsiniz. Bu işlem uzun sürecektir çünkü diskinizin üzerine binlerce veri yazılıp silinecektir. Aşağıdaki resimde gördüğünüz işlemi yaparsanız verileriniz bir daha geri getirilmemek üzere yok olur . Antiforensic işlemi diyebiliriz. Delilleri böylece yokedebilirsiniz.</p>
-<img src="https://miro.medium.com/max/239/1*EPyJUczhSoVNCBJBCTrvOg.png" alt="">
-<p>Bir yazımın daha sonuna geldik . Yukarıda belirttiğim işlemleri silinen verilerinizi geri getirmek için faydalı olarak kullanabilirsiniz. Verilerinizi tamamen nasıl ortadan kaldırabileceğinize de değindim .Bir sonraki yazımda görüşmek üzere 🙂</p>
+<p>Docker dosya sistemini bir arşiv olarak dışa aktarabiliyoruz. Bir docker konteynerinin dosya sistemini tar olarak sıkıştırmak için <a style="color:red;">export</a> komutunu kullanabiliriz. Dockerimizin anlık görüntüsünü dışarıya aktarabiliriz. Ben kendi sistemimdeki bir yere <a style="color:red;">siberdocker.gz </a> olarak export ettim. ls komutu yaparak kaydedilip kaydedilmediğini kontrol edebilirsiniz. Aşağıdaki görüldüğü gibi ls komutunu yazdığımda <a style="color:red;">siberdocker.gz </a> dosyası karşıma geliyor. Yani başarılı bir şekilde export ettik.</p>
+<img src="https://miro.medium.com/max/700/0*VoVHU6II8VJKO64V.png" alt="" >
 
-
-
+<p>Konteyneri tar dosyası olarak dışa aktardığınızda, dosyanın hash değeri şu şekilde olabilir. Bu hash değerini görüntülemek için şu komutu giriyoruz.</p>
+<p><a style="color:red;">cat {path} |docker import — siberlab</a></p>
+<img src="https://miro.medium.com/max/700/0*I5ihdwiDn9XrdQaD.png" alt="" >
+<p>Başka bir docker üzerine yükleyebileceğiniz konteyner imajını kaydetmek için save komutunu kullanabilirsiniz. Daha sonra bu “kaydedilmiş” görüntüleri yeni bir docker üzerine yükleyebilir ve bu imajı çalıştırabilirsiniz.</p>
+<p><a style="color:red;">docker save <container name> | gzip > {path for tar} siberdocker.gz</a></p>
+<p><a style="color:red;">docker load -i /{path}/siberdocker.gz</a></p>
+<img src="https://miro.medium.com/max/700/0*ZwJMFuX6GaTA59iz.png" alt="" >
+<p>En sonda yukarıdaki fotoğrafta görüldüğü üzere docker imajını , en son olarak docker images diyerek yüklenip yüklenmediğini kontrol edebiliriz. Yukarıdaki fotoğrafta gördüğümüz üzere siberlab başarıyla yüklenmiş.</p>
+<p>Bir yazımın daha sonuna geldim. Farklı bir yazıda görüşmek üzere 🙂 </p>
