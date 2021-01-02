@@ -26,12 +26,12 @@ Docker ile Linux, Windows ve MacOSX üzerinde Linux ve Windows sanal containerle
 
 ## [](#header-2) Docker Kurulumu Ve Kullanımı
 <p>Docker’ı kurmak için Linux terminalini açmanız ve aşağıdaki komutu yazmanız yeterlidir:</p>
-<strong>apt install docker.io</strong>
+<a style="color:red;">apt install docker.io</a>
 <img src="https://miro.medium.com/max/700/0*EgBdsK61597uJszs.png" alt="">
 <p>Sürümü kontrol etmek için aşağıdaki komutu kullanabilirsiniz </p>
 <a style="color:red;">docker –version</a>
 <p>Ayrıca, docker’ın hizmetinizde sunduğu tüm seçenekleri bilmek için docker’da help komutunu çalıştırabilirsiniz.</p>
-<a style="color:red;">docker –help</a
+<a style="color:red;">docker –help</a>
 
 
 
