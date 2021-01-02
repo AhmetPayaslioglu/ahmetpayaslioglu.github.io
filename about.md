@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
- <p>Selam.Öncelikle bloğumu ziyaret ettiğin için teşekkür ederim .Ben Ahmet Payaslıoğlu . Fırat Üniversitesi Adli Bilişim Mühendisliği öğrencisiyim. Şuanda Erasmus+ programı için , 1 yıl boyunca Slovenya'da bulunan University of Maribor 'da , Computer Science bölümünde eğitim göreceğim. Kendimi gün geçtikçe Siber Güvenlik alanında geliştirmeye çalışıyorum. Türkçe Dokümanların çoğalması adına yaptığım çalışmaları bloğumda paylaşıyorum. </p>
+ <p>Selam.Öncelikle bloğumu ziyaret ettiğin için teşekkür ederim .Ben Ahmet Payaslıoğlu . Fırat Üniversitesi Adli Bilişim Mühendisliği öğrencisiyim. Şuanda Erasmus+ programı için , 1 yıl boyunca Slovenya'da bulunan University of Maribor 'da , Computer Science bölümünde eğitim göreceğim. Kendimi gün geçtikçe Siber Güvenlik alanında geliştirmeye çalışıyorum. Türkçe Dokümanların çoğalması adına yaptığım çalışmaları bloğumda paylaşıyorum. Bana aşağıda bulunan sosyal medya hesaplarımdan ulaşabilirsiniz. </p>
 
 <html>
 <head>
