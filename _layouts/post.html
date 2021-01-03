@@ -10,6 +10,11 @@ layout: default
     <div class="post">{{  }}</div>
     {% include share-page.html %}
   </div>
+  <style>
+  prev {
+    font-size:10;
+  }
+</style>
   <div class="PageNavigation">
   {% if page.previous.url %}
     <a class="prev" href="{{ page.previous.url }}">&laquo; {{ page.previous.title }}</a>
