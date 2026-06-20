@@ -1,2 +1,4 @@
 User-agent: *
-Disallow: /contact.html
+Allow: /
+
+Sitemap: https://ahmetpayaslioglu.github.io/sitemap.xml
