@@ -1,4 +1,4 @@
-# ahmetpayaslioglu.github.io
+# ahmetpayaslioglu.com
 
 Personal site of Ahmet Payaslıoğlu — Senior Cyber Security Incident Responder (L3), Threat Hunter and Detection Engineer.
 
