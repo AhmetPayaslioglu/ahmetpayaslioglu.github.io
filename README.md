@@ -7,8 +7,8 @@ Static HTML/CSS/JS site hosted on GitHub Pages. Bilingual (TR / EN).
 ## Structure
 
 ```
-/                    Turkish pages (index, hakkimda, hizmetler, egitimler, sertifikalar, iletisim)
-/en/                 English pages (index, about, services, training, certificates, contact)
+/                    Turkish pages (index, hakkimda, hizmetler, sertifikalar, iletisim)
+/en/                 English pages (index, about, services, certificates, contact)
 /assets/css/         Styles
 /assets/js/          Client-side scripts (nav toggle, language persistence)
 /assets/img/         Images
