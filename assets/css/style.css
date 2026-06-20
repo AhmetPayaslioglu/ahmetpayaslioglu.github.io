@@ -237,6 +237,8 @@ img { max-width: 100%; display: block; }
   height: 100%;
   border-radius: 50%;
   object-fit: cover;
+  transform: scale(1.08);
+  clip-path: circle(46% at 50% 50%);
 }
 
 .hero-avatar::after {
